@@ -76,12 +76,11 @@ span{
     margin: 100px auto;
     border-radius: 5px;
     transform: translateY(-90%);
-    border: 1px dashed rgb(30, 185, 247);
     
 }
 input, select {
-    padding: 6px 10px;
-    border-radius: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
     border: 0;
     font-weight: 700;
     margin-right: 10px;
@@ -89,10 +88,61 @@ input, select {
 button{
     background-color: #FF5400;
     color: white;
-    padding: 6px 30px;
-    border-radius: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
     border: 0;
     font-weight: 600;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
+}
+
+.main-section{
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-section-text{
+    width: 50%;
+
+}
+.main-section-text h1{
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.main-section-image{
+    width: 50%;
+}
+.main-section-image img{
+    width: 80%;
+    margin-left: 115px;  
+}
+.destination-section{
+    margin: 80px auto;
+    text-align: center;
+}
+.destination-section h1{
+    padding-bottom: 15px;
+}
+.destination-image1{
+display: flex;
+gap: 30px;
+}
+
+.maldives, .indonesia{
+    width: 50%;
+    position: relative;
+}
+
+.maldives h2, .indonesia h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.maldives img, .indonesia img {
+    width: 100%;
 }
