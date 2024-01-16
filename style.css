@@ -311,16 +311,19 @@ footer{ background: rgba(19,19,24, 0.05);
     .banner-title{padding: 10% 10px 2% 10px;
         margin-bottom: 20px;
     }
-
+    .banner-section{
+        background-size: cover;
+        background-position: center;
+    }
     .foot-sec, .newsletter, .service-section1,
     .destination-image1, .destination-image2, .destination-image3, .main-section  {
         flex-direction: column;
         align-items: center;
-        margin: 10px 40px;
+        margin: 10px 20px;
+        text-align: justify;
     }
     .destination-image1{
         margin: 5px auto;
-        
     }
     .newsletter-image {
         width: 100%;
