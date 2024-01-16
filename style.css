@@ -76,6 +76,7 @@ span{
     margin: 100px auto;
     border-radius: 5px;
     transform: translateY(-90%);
+    display: flex;
     
 }
 input, select {
@@ -126,10 +127,10 @@ button{
 .destination-image1{
     display: flex;
     gap: 20px;
+    
 }
-
 .maldives, .indonesia{
-    width: 50%;
+    width: 85%;
     position: relative;
 }
 
@@ -270,7 +271,7 @@ button{
     text-align: center;
 
 }
-footer{ background: rgba(19,        19,    24, 0.05);
+footer{ background: rgba(19,19,24, 0.05);
     margin-top: 30px;
     padding: 50px 0px;
 }
@@ -300,9 +301,62 @@ footer{ background: rgba(19,        19,    24, 0.05);
 
 
 
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 600px) { 
+    
+    body{
+        margin: 10px;
+    }
     .main-nav{
         flex-direction: column;
     }
+    .banner-title{padding: 10% 10px 20% 10px;}
+
+    .foot-sec, .newsletter, .service-section1,
+    .destination-image1, .destination-image2, .destination-image3, .main-section  {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 40px;
+    }
+    .destination-image1{
+        margin: 5px auto;
+        
+    }
+    .newsletter-image {
+        width: 100%;
+    }
+    .save70{
+        bottom: 50px;
+        left: 225px;
+    }
+    .newsletter-form{ width: 80%;}
+
+    .discount{padding: 10px 35px;}
+
+    .main-section-image,.main-section-text{
+        width: 100%;}
+
+    .main-section-image img {
+        margin-left: 5px;
+        margin-top: 10px;
+
+    }
+    }
+    .choose-us-section{
+        margin-left: 20px;
+        padding: 10px 20px;
+
+    }
+    .info-button-section { flex-direction: column;
+        margin: 25px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        gap: 10px;
+    }
     
-}
+    
+
+    footer{margin: 10px 20px;
+            padding: 10px 0px;
+    }
